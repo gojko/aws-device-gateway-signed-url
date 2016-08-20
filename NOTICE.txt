@@ -1,0 +1,6 @@
+* Extracted from "AWS IOT websocket MQTT Sample" (https://github.com/awslabs/aws-iot-examples/tree/master/mqttSample)
+* Removed UI dependencies so it can easily be used with a different UI
+* Extended to support session tokens in authentication (for easy Cognito support)
+* Packaged as a NPM library for convenient use
+
+Original code copyright 2016-2016 Amazon.com, Inc. or its affiliates. All Rights Reserved.

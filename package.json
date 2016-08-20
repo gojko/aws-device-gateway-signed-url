@@ -1,0 +1,26 @@
+{
+  "name": "aws-device-gateway-signed-url",
+  "version": "1.0.0",
+  "description": "Create a signed WebSocket URL for a MQTT AWS device gateway endpoint, so browsers can connect to AWS IOT MQTT message queues easily",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gojko/aws-device-gateway-signed-url.git"
+  },
+  "keywords": [
+    "aws",
+    "iot",
+    "websockets",
+    "mqtt"
+  ],
+  "author": "Gojko Adzic <gojko@gojko.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gojko/aws-device-gateway-signed-url/issues"
+  },
+  "homepage": "https://github.com/gojko/aws-device-gateway-signed-url#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.6",
+    "moment": "^2.14.1"
+  }
+}
