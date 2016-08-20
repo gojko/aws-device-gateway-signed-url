@@ -23,7 +23,7 @@ signedUrl = signUrl (params);
 `params` is a key-value hash containing the following keys:
 
 * `regionName`: AWS region, for example, `us-east-1`
-* `endpoint`: AWS device gateway endpoint URL. (see `Retrieving your endpoint URL` below)
+* `endpoint`: AWS device gateway endpoint URL. (see _Retrieving your endpoint URL_ below)
 * `secretKey`: AWS access Secret key 
 * `accessKey`: AWS access key ID
 * `sessionToken`: _optional_ an AWS Session Token (from STS, Cognito, or assumed role)
