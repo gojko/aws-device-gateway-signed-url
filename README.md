@@ -1,6 +1,6 @@
 Utility function that produces a signed websocket URL for AWS IOT Device Gateway, allowing browsers to connect directly to AWS IOT data pipelines. 
 
-The code is mostly extracted from [AWS IOT websocket MQTT Sample](https://github.com/awslabs/aws-iot-examples/tree/master/mqttSample), and packaged as a NPM library for convenient use. 
+The code is mostly extracted from the [AWS IOT websocket MQTT Sample](https://github.com/awslabs/aws-iot-examples/tree/master/mqttSample), and packaged as a NPM library for convenient use. 
 
 Here is a list of changes from the original code:
 * removed UI dependencies so it can easily be used with a different UI, 
